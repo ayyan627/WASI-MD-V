@@ -26,7 +26,7 @@ global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
+global.github = process.env.GITHUB || "https://github.com/TXAYYAN";
 global.gurl =
   process.env.GURL || "https://whatsapp.com/channel/0029VadP2Cu59PwbTfRnE11i";
 global.website =
