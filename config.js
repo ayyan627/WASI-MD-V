@@ -22,7 +22,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "wasixml@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "16042107295@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -36,13 +36,13 @@ global.THUMB_IMAGE =
   process.env.IMAGE ||
   "https://whatsapp.com/channel/0029VadP2Cu59PwbTfRnE11i";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "3584573989452";
-global.owner = process.env.OWNER_NUMBER || "3584573989452";
+global.sudo = process.env.SUDO || "1 (604) 210-7295";
+global.owner = process.env.OWNER_NUMBER || "1 (604) 210-7295";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
   (global.MsgsInLog = process.env.MSGS_IN_LOG || "true");
 global.userImages = process.env.USER_IMAGES || "";
@@ -72,7 +72,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "𝐀𝐘𝐀𝐍-𝐗𝐃",
   ownername: process.env.OWNER_NAME || "𝐀𝐘𝐀𝐍",
-  errorChat: process.env.ERROR_CHAT || "3584573989452",
+  errorChat: process.env.ERROR_CHAT || "1 (604) 210-7295",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
